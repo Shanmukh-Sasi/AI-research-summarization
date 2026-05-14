@@ -1,0 +1,9 @@
+flask
+flask-cors
+pymupdf
+nltk
+scikit-learn
+pandas
+numpy
+gunicorn
+
