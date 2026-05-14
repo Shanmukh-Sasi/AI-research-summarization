@@ -79,7 +79,16 @@ body {
 
 @media (max-width: 900px) {
   .grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    order: 2;
+  }
+  
+  .content-area {
+    order: 1;
   }
   
   .app-header {
