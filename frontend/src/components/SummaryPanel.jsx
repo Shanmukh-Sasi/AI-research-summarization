@@ -11,7 +11,7 @@ const SummaryPanel = ({ summary }) => {
         <h2>Document Summary</h2>
       </div>
       <div className="summary-content">
-        <p>{summary}</p>
+        <p>{typeof summary === 'string' ? summary : JSON.stringify(summary)}</p>
       </div>
     </div>
   );
